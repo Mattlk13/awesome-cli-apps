@@ -1,5 +1,5 @@
 <p align="center">
-	<img width="763" src="https://cdn.rawgit.com/aharris88/awesome-cli-apps/master/media/logo.png" alt="awesome cli apps">
+	<img width="763" src="https://cdn.rawgit.com/aharris88/awesome-cli-apps/master/media/banner.png" alt="awesome cli apps">
 </p>
 
 ---
@@ -29,6 +29,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
   - [Mobile Development](#mobile-development)
   - [Database](#database)
   - [Devops](#devops)
+  - [Docker](#docker)
   - [Release](#release)
   - [Npm](#npm)
   - [Boilerplate](#boilerplate)
@@ -37,6 +38,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
   - [Note Taking and Lists](#note-taking-and-lists)
   - [Finance](#finance)
   - [Presentations](#presentations)
+  - [Calendars](#calendars)
 - [Utilities](#utilities)
   - [macOS](#macos)
   - [Terminal Sharing Utilities](#terminal-sharing-utilities)
@@ -44,14 +46,18 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
   - [Theming and Customization](#theming-and-customization)
   - [Shell Utilities](#shell-utilities)
   - [System Interaction Utilities](#system-interaction-utilities)
+  - [Markdown](#markdown)
 - [Command Line Learning](#command-line-learning)
 - [Data Manipulation](#data-manipulation)
+  - [Processors](#processors)
   - [JSON](#json)
+  - [Columns](#columns)
   - [Text](#text)
 - [Files and Directories](#files-and-directories)
   - [File Managers](#file-managers)
   - [Deleting, Copying, and Renaming](#deleting-copying-and-renaming)
   - [Files](#files)
+  - [File Sync/Sharing](#file-syncsharing)
   - [Directory Listing](#directory-listing)
   - [Directory Navigation](#directory-navigation)
   - [Search](#search)
@@ -93,15 +99,18 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [musikcube](https://github.com/clangen/musikcube) - Cross-platform, terminal-based music player, audio engine, metadata indexer, and server.
 - [beets](https://github.com/beetbox/beets) - Music library manager and tagger.
 - [playx](https://github.com/NISH1001/playx) - Stream songs/playlists from various sources.
+- [spotify-tui](https://github.com/Rigellute/spotify-tui) - Spotify client.
+- [swaglyrics-for-spotify](https://github.com/SwagLyrics/SwagLyrics-For-Spotify) - Spotify lyrics.
 
 ### Social Media
 
 - [facebook-cli](https://github.com/specious/facebook-cli) - Facebook command line interface.
 - [TTYtter](https://github.com/oysttyer/oysttyer) - Twitter client.
 - [Rainbowstream](https://github.com/DTVD/rainbowstream) - A smart and nice Twitter client on the terminal.
-- [RTV](https://github.com/michael-lazar/rtv) - Browse Reddit from your terminal.
+- [tuir](https://gitlab.com/ajak/tuir) - Reddit TUI.
 - [WeeChat](https://weechat.org/) - Fast, light and extensible chat client.
 - [irssi](https://github.com/irssi/irssi) - IRC chat client.
+- [kirc](https://github.com/mcpcpc/kirc) - Tiny IRC client.
 
 ### Video
 
@@ -109,6 +118,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [streamlink](https://github.com/streamlink/streamlink) - Extract streams from various websites to a video player of your choosing.
 - [mps-youtube](https://github.com/mps-youtube/mps-youtube) - Youtube player.
 - [mpv](https://mpv.io) - Superior video player.
+- [editly](https://github.com/mifi/editly) - Declarative video editing.
 
 ### Movies
 
@@ -133,9 +143,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [legit](https://github.com/captainsafia/legit) - Generate Open Source licences as files or file headers.
 - [mklicense](https://github.com/cezaraugusto/mklicense) - Create a custom LICENSE file painlessly with customized info.
 - [rebound](https://github.com/shobrook/rebound) - Fetch Stack Overflow results in your terminal when you get a compiler error.
-- [grip](https://github.com/joeyespo/grip) - Preview markdown files with GitHub styles before committing them.
-- [bitwise](https://github.com/mellowcandle/bitwise) - Base convertion and bit manipulator in ncurses.
+- [bitwise](https://github.com/mellowcandle/bitwise) - Base conversion and bit manipulator in ncurses.
 - [foy](https://github.com/zaaack/foy) - Lightweight general purpose task runner/build tool.
+- [just](https://github.com/casey/just) - Modern `make`-like command runner.
+- [grex](https://github.com/pemistahl/grex) - Generate regular expressions from user-provided test cases.
 
 ### Text Editors
 
@@ -178,21 +189,28 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [mycli](https://github.com/dbcli/mycli) - MySQL client with autocompletion and syntax highlighting.
 - [pgcli](https://github.com/dbcli/pgcli) - Postgres client with autocompletion and syntax highlighting.
 - [sqlline](https://github.com/julianhyde/sqlline) -  Shell for issuing SQL via JDBC.
+- [iredis](https://github.com/laixintao/iredis) - Redis client with autocompletion and syntax highlighting.
+- [usql](https://github.com/xo/usql) - Universal SQL client with autocompletion and syntax highlighting.
 
 ### Devops
 
 - [htconvert](https://github.com/lukechilds/htconvert) - Convert .htaccess redirects to nginx.conf redirects.
-- [aws-cli](https://github.com/aws/aws-cli) - Universal Interface for Amazon Web Services.
-- [azure-cli](https://github.com/Azure/azure-cli) - Command-line tools for Azure.
 - [SAWS](https://github.com/donnemartin/saws) - Supercharged AWS CLI.
 - [s3cmd](https://github.com/s3tools/s3cmd) - Fully-Featured S3 client.
-- [lstags](https://github.com/ivanilves/lstags) - Synchronize Docker images across different registries.
 - [pm2](https://pm2.io/runtime/) - Production Process Manager for Node.js.
-- [dockly](https://github.com/lirantal/dockly) - Interactively manage Docker containers.
 - [ops](https://github.com/nanovms/ops) - Unikernel compilation and orchestration tool.
-- [lazydocker](https://github.com/jesseduffield/lazydocker) - Simple docker/docker-compose interface.
 - [flog](http://github.com/mingrammer/flog) - A fake log generator for log formats such as apache-common, apache error and RFC3164 syslog.
 - [isitfit](http://github.com/autofitcloud/isitfit) - Manage AWS EC2 rightsizing.
+- [k9s](https://github.com/derailed/k9s) - Manage Kubernetes Clusters.
+- [PingMe](https://github.com/kha7iq/pingme) - Send messages/alerts to multiple messaging platforms & email.
+
+### Docker
+
+- [lstags](https://github.com/ivanilves/lstags) - Synchronize images across registries.
+- [dockly](https://github.com/lirantal/dockly) - Interactively manage containers.
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - Simple docker/docker-compose interface.
+- [docker-shell](https://github.com/Trendyol/docker-shell) - Simple interactive docker interface.
+- [docker-pushrm](https://github.com/christian-korneck/docker-pushrm) - Push a readme to container registries.
 
 ### Release
 
@@ -200,6 +218,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [clog](https://github.com/clog-tool/clog-cli) - A conventional changelog for the rest of us.
 - [np](https://github.com/sindresorhus/np) - A better `npm publish`.
 - [release](https://github.com/zeit/release) - Generate changelogs with a single command.
+- [semantic-release](https://github.com/semantic-release/semantic-release) - Fully automated version management and package publishing.
 
 ### Npm
 
@@ -209,6 +228,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) - Find the root directory of a npm package.
 - [npm-check-updates](https://github.com/tjunnone/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
 - [updates](https://github.com/silverwind/updates) - Flexible npm dependency update tool.
+- [wipe-modules](https://github.com/bntzio/wipe-modules) - Remove `node_modules` of inactive projects.
 
 ### Boilerplate
 
@@ -233,29 +253,28 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [uber-cli](https://github.com/jaebradley/uber-cli) - Uber client.
 - [Buku](https://github.com/jarun/Buku) - Browser-independent bookmark manager.
 - [googler](https://github.com/jarun/googler) - Google from the terminal.
-- [calcurse](http://calcurse.org/) - A calendar and scheduling application for the command-line.
-- [gcalcli](https://github.com/insanum/gcalcli) - Access Google calendar from the terminal.
 - [papis](http://github.com/alejandrogallo/papis) - Extensible document and bibliography manager.
 
 ### Time Tracking
 
-- [Timetrap](https://github.com/samg/timetrap) - Simple command-line timetracker.
+- [Timetrap](https://github.com/samg/timetrap) - Simple timetracker.
 - [moro](https://github.com/omidfi/moro) - Simple tool for tracking work hours.
 - [Timewarrior](https://github.com/GothenburgBitFactory/timewarrior) - Utility with simple stopwatch, calendar-based backfill and flexible reporting.
 - [Watson](https://github.com/TailorDev/Watson) - Generate reports for clients and manage your time.
+- [utt](https://github.com/larose/utt) - Simple time tracking tool.
 
 ### Note Taking and Lists
 
 - [idea](https://github.com/IonicaBizau/idea) - A lightweight tool for keeping ideas in a safe place quick and easy.
 - [geeknote](https://github.com/VitaliyRodnenko/geeknote) - Evernote client.
-- [Taskwarrior](http://taskwarrior.org) - Manage your TODO list from your command-line.
-- [Terminal velocity](https://vhp.github.io/terminal_velocity/) - A fast note-taking app for the terminal.
-- [eureka](https://github.com/simeg/eureka) - Store your ideas without leaving the terminal.
+- [Taskwarrior](http://taskwarrior.org) - Manage your TODO list.
+- [Terminal velocity](https://vhp.github.io/terminal_velocity/) - A fast note-taking app.
+- [eureka](https://github.com/simeg/eureka) - Input and store your ideas.
 - [sncli](https://github.com/insanum/sncli) - Simplenote client.
 - [td-cli](https://github.com/darrikonn/td-cli) - A TODO manager to organize and manage your TODO's across multiple projects.
 - [taskell](https://github.com/smallhadroncollider/taskell) - Interactive kanban board/task manager.
 - [taskbook](https://github.com/klaussinani/taskbook) - Tasks, boards & notes for the command-line habitat.
-- [dnote](https://github.com/dnote/dnote) - A simple, interactive notebook.
+- [dnote](https://github.com/dnote/dnote) - A interactive, multi-device notebook.
 
 ### Finance
 
@@ -271,6 +290,14 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [mdp](https://github.com/visit1985/mdp) - A command-line based markdown presentation tool.
 - [sent](https://tools.suckless.org/sent/) - Simple plaintext presentation tool.
 
+### Calendars
+
+- [calcurse](http://calcurse.org/) - Calendar and scheduling.
+- [gcalcli](https://github.com/insanum/gcalcli) - Google calendar client.
+- [khal](https://github.com/pimutils/khal) - CalDAV ready CLI and TUI calendar.
+- [vdirsyncer](https://github.com/pimutils/vdirsyncer) - CalDAV sync.
+- [remind](https://dianne.skoll.ca/projects/remind) - A sophisticated calendar and alarm program.
+
 ## Utilities
 
 - [archive-type-cli](https://github.com/kevva/archive-type-cli) - Detect archive type for a file or stdin.
@@ -282,8 +309,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [getnews.tech](https://github.com/omgimanerd/getnews.tech) - Fetch news headlines from various news outlets.
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli) - Generate beautiful images of your code.
 - [pass](https://www.passwordstore.org) - Password manager.
+- [gopass](https://github.com/gopasspw/gopass) - Fully-featured password manager.
 - [awesome-finder](https://github.com/mingrammer/awesome-finder) - Search the awesome lists without a browser.
-- [mdv](https://github.com/axiros/terminal_markdown_viewer) - Styled terminal markdown viewer.
 - [shallow-backup](https://github.com/alichtman/shallow-backup) - Git integrated backup tool.
 
 ### macOS
@@ -320,13 +347,14 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [speedtest-net](https://github.com/ddsol/speedtest.net) - Test internet connection speed and ping using speedtest.net.
 - [speed-test](https://github.com/sindresorhus/speed-test) - `speedtest-net` wrapper with different UI.
 - [speedtest-cli](https://github.com/sivel/speedtest-cli) - Test internet bandwidth using speedtest.net.
+- [bandwhich](https://github.com/imsnif/bandwhich) - Track bandwidth utilization by process.
 
 ### Theming and Customization
 
-- [splash-cli](https://github.com/rawnly/splash-cli) - Beautiful wallpapers from unsplash.
+- [splash-cli](https://github.com/rawnly/splash-cli) - Beautiful wallpapers from Unsplash.
 - [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli) - Get or set the desktop wallpaper.
 - [themer](https://github.com/mjswensen/themer) - Generate personalized themes for your editor, terminal, wallpaper, Slack, and more.
-- [JackPaper](https://github.com/jackel27/jackpaper) - Apply random/queried images from unplash.com as desktop wallpaper.
+- [JackPaper](https://github.com/jackel27/jackpaper) - Set images from Unsplash as wallpaper.
 - [pywal](https://github.com/dylanaraps/pywal) - Generate and change color-schemes, then apply them system-wide to all of your favourite programs.
 - [QuickWall](https://github.com/deepjyoti30/QuickWall) - Directly set wallpapers from Unsplash.
 
@@ -349,39 +377,54 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [neofetch](https://github.com/dylanaraps/neofetch) - System information tool.
 - [Glances](https://nicolargo.github.io/glances) - System monitoring tool.
 
+### Markdown
+
+- [DocToc](https://github.com/thlorenz/doctoc) - Generates table of contents for markdown files.
+- [grip](https://github.com/joeyespo/grip) - Preview markdown files as GitHub would render them.
+- [mdv](https://github.com/axiros/terminal_markdown_viewer) - Styled terminal markdown viewer.
+
 ## Command Line Learning
 
-- [cmdchallenge](https://cmdchallenge.com/) - presents small shell challenge with user submitted solutions.
-- [explainshell](http://www.explainshell.com/) - type a command line snippet to see the help text for each argument.
-- [howdoi](https://github.com/gleitz/howdoi) - Instant coding answers via the command line.
-- [how2](https://github.com/santinic/how2) - Finds the simplest way to do something on a unix bash command line (Nodejs implementation of howdoi).
+- [cmdchallenge](https://cmdchallenge.com) - Presents small shell challenge with user submitted solutions.
+- [explainshell](http://www.explainshell.com) - Type a snippet to see the help text for each argument.
+- [howdoi](https://github.com/gleitz/howdoi) - Instant coding answers.
+- [how2](https://github.com/santinic/how2) - Node.js implementation of howdoi.
 - [The Fuck](https://github.com/nvbn/thefuck) - Magnificent app which corrects your previous console command.
 - [tldr](https://github.com/tldr-pages/tldr) - Simplified and community-driven man pages.
 - [Wat](https://github.com/dthree/wat) - Instant, central, community-built docs.
-- [teachcode](https://github.com/madlabsinc/teachcode) - A tool to develop and improve a student’s programming skills by introducing the earliest lessons of coding.
+- [teachcode](https://github.com/madlabsinc/teachcode) - Guide for the earliest lessons of coding.
 - [navi](https://github.com/denisidoro/navi) - Interactive cheatsheet tool.
 
 ## Data Manipulation
 
-- [underscore-cli](https://github.com/ddopson/underscore-cli) - Command-line utility-belt for hacking JSON and Javascript.
-- [ramda-cli](https://github.com/raine/ramda-cli) - A CLI tool for processing data with functional pipelines.
-- [yaml-cli](https://github.com/pandastrike/yaml-cli) - A simple CLI for querying and updating YAML files.
-- [q](http://harelba.github.io/q/) - A command line tool that allows execution of SQL-like queries on CSVs/TSVs (and any other tabular text files).
-- [yq](https://github.com/kislyuk/yq) - Command-line YAML processor (Uses the same syntax as jq).
+- [visidata](https://github.com/saulpw/visidata) - Spreadsheet multitool for data discovery and arrangement.
+
+### Processors
+
+- [jq](https://github.com/stedolan/jq) - JSON processor.
+- [yq](https://github.com/kislyuk/yq) - YAML processor.
+- [dasel](https://github.com/tomwright/dasel) - JSON/YAML/TOML/XML processor (like jq/yq).
+- [yaml-cli](https://github.com/pandastrike/yaml-cli) - Query/update YAML.
+- [ramda-cli](https://github.com/raine/ramda-cli) - Process data with functional pipelines.
 
 ### JSON
 
-- [jq](https://github.com/stedolan/jq) - JSON processor.
-- [jp](https://github.com/therealklanni/jp) - Simply parse and drill into JSON on the commandline, with jsonpath and stdin stream support (jq compatible, not a replacement).
+- [jp](https://github.com/therealklanni/jp) - JSON parser.
 - [fx](https://github.com/antonmedv/fx) - Command-line JSON viewer.
 - [vj](https://github.com/busyloop/vj) - Makes JSON human readable.
+- [underscore-cli](https://github.com/ddopson/underscore-cli) - Utility-belt for hacking JSON and Javascript.
 - [strip-json-comments-cli](https://github.com/sindresorhus/strip-json-comments-cli) - Strip comments from JSON.
 - [GROQ](https://github.com/sanity-io/groq-cli) – JSON processor with queries and projections.
 
+### Columns
+
+- [parse-columns-cli](https://github.com/sindresorhus/parse-columns-cli) - Parse text columns to JSON.
+- [q](http://harelba.github.io/q/) - Execution of SQL-like queries on CSV/TSV/tabular text file.
+
 ### Text
 
-- [parse-columns-cli](https://github.com/sindresorhus/parse-columns-cli) - Parse text columns, like the output of unix commands. Returns JSON that you can manipulate with tools like jq or underscore-cli.
 - [figlet](http://www.figlet.org/) - Creates large text out of ASCII characters.
+- [stegcloak](https://github.com/kurolabs/stegcloak) - Hide secrets with invisible characters in plain text securely.
 
 ## Files and Directories
 
@@ -389,8 +432,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 - [ranger](https://github.com/ranger/ranger) - A console file manager with VI key bindings.
 - [midnight-commander](https://github.com/MidnightCommander/mc) - A feature rich visual file manager.
-- [organize-cli](https://github.com/ManrajGrover/organize-cli) - Organize your files, imagine cleaning up your downloads in an instant.
-- [Vifm](https://vifm.info/) - Vifm is an ncurses based file manager with vi like keybindings/modes/options/commands/configuration, which also borrows some useful ideas from mutt.
+- [Vifm](https://vifm.info/) - VI influnced file manager.
 - [nnn](https://github.com/jarun/nnn) - File browser and disk usage analyzer with excellent desktop integration.
 - [lf](https://github.com/gokcehan/lf) - Fast, extensively customizable file manager.
 - [fff](https://github.com/dylanaraps/fff) - Fast, simple file manager.
@@ -401,27 +443,37 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [empty-trash-cli](https://github.com/sindresorhus/empty-trash-cli) - Empty the trash.
 - [del-cli](https://github.com/sindresorhus/del-cli) - Delete files and folders.
 - [cpy-cli](https://github.com/sindresorhus/cpy-cli) - Copies files.
-- [rename-cli](https://github.com/jhotmann/node-rename-cli) - A cross-platform tool for renaming files quickly, especially multiple files at once.
+- [rename-cli](https://github.com/jhotmann/node-rename-cli) - Rename files quickly.
+- [renameutils](https://www.nongnu.org/renameutils) - Mass renaming in your editor.
+- [diskonaut](https://github.com/imsnif/diskonaut) - Disk space navigator.
 
 ### Files
 
 - [chokidar-cli](https://github.com/kimmobrunfeldt/chokidar-cli) - CLI to watch file system changes.
 - [file-type-cli](https://github.com/sindresorhus/file-type-cli) - Detect the file type of a file or stdin.
-- [DocToc](https://github.com/thlorenz/doctoc) - Generates table of contents for markdown files inside local git repository. Links are compatible with anchors generated by github or other sites.
 - [bat](https://github.com/sharkdp/bat) - A cat clone with syntax highlighting.
 - [NCDu](https://dev.yorhel.nl/ncdu) - A disk usage analyzer with an ncurses interface.
-- [unix-permissions](https://github.com/ehmicky/unix-permissions) - Swiss Army knife for Unix permissions
-- [rclone](https://github.com/ncw/rclone) - Sync files to and from various cloud providers (Dropbox, Google Drive, Onedrive, etc.).
+- [unix-permissions](https://github.com/ehmicky/unix-permissions) - Swiss Army knife for Unix permissions.
 - [transmission-cli](https://transmissionbt.com) - Torrent client for your command line.
-- [ffsend](https://github.com/timvisee/ffsend) - Fully featured CLI for [Firefox Send](https://send.firefox.com/) - simple and private file sharing.
 - [webtorrent-cli](https://github.com/feross/webtorrent-cli) – Streaming torrent client.
+- [entr](https://github.com/eradman/entr) - Run an arbitrary command when files change.
+- [organize-cli](https://github.com/ManrajGrover/organize-cli) - Organize your files automatically.
+- [organize-rt](https://gitlab.com/FixFromDarkness/organize-rt) - organize-cli in Rust with more customization.
+
+### File Sync/Sharing
+
+- [rclone](https://github.com/ncw/rclone) - Sync files with various cloud providers.
+- [ffsend](https://github.com/timvisee/ffsend) - Quick file share.
 - [share-cli](https://github.com/marionebl/share-cli) - Share files with your local network.
+- [google-drive-upload](https://github.com/labbots/google-drive-upload) - Upload/sync with Google Drive.
+- [gdrive-downloader](https://github.com/Akianonymus/gdrive-downloader) - Download files/folders from Google Drive.
 
 ### Directory Listing
 
-- [alder](https://github.com/aweary/alder) - A minimal implementation of the UNIX tree command with colors!
-- [exa](https://github.com/ogham/exa) - An improved version of `ls` written in Rust.
-- [tre](https://github.com/dduan/tre) - Tree command with git awareness, editor aliasing, and more.
+- [alder](https://github.com/aweary/alder) - Minimal `tree` with colors.
+- [exa](https://github.com/ogham/exa) - Improved version of `ls`.
+- [tre](https://github.com/dduan/tre) - `tree` with git awareness, editor aliasing, and more.
+- [ll](https://github.com/antonmedv/ll) - `ls` with git status.
 
 ### Directory Navigation
 
@@ -432,7 +484,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [PathPicker](https://github.com/facebook/pathpicker/) - After parsing the output from a command, PathPicker presents you with a nice UI to select which files you're interested in.
 - [fz](https://github.com/changyuheng/fz) - Seamless fuzzy tab completion for z.
 - [goto](https://github.com/iridakos/goto) - Directory aliases for the shell with autocomplete.
-- [z.lua](https://github.com/skywind3000/z.lua) - A new cd command that helps you navigate faster by learning your habits.
+- [z.lua](https://github.com/skywind3000/z.lua) - `cd` command that learns your habits.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - Fast directory jumper in Rust.
 
 ### Search
 
@@ -442,8 +495,12 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [fzf](https://github.com/junegunn/fzf) - A general purpose command-line fuzzy finder, can be used with any list: files/directories, command history, processes, hostnames, bookmarks, git commits, etc.
 - [fselect](https://github.com/jhspetersson/fselect) - Find files with SQL-like queries.
 - [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to `find`.
+- [broot](https://github.com/Canop/broot) - Fuzzy finder similar to fzf, but with space usage visualization.
+- [rare](https://github.com/zix99/rare) - Real-time regex aggregation and analysis.
 
 ## Version Control
+
+- [SnowFS](https://github.com/snowtrack/snowfs) - A fast, scalable version control system for binaries.
 
 ### Git
 
@@ -461,6 +518,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [gitlab-cli](https://github.com/vishwanatharondekar/gitlab-cli) - gitlab cli for creating merge request from the command line.
 - [git-extras](https://github.com/tj/git-extras) - Little git extras like git-ignore, git-setup, git-changelog, git-release, git-effort and more.
 - [gita](https://github.com/nosarthur/gita) - Manage multiple git repos side by side for sanity.
+- [readme-md-generator](https://github.com/kefranabg/readme-md-generator) - Generate README.md files interactively.
+- [semantic-git-commit-cli](https://github.com/JPeer264/node-semantic-git-commit-cli) - Ensure semantic commits messages.
+- [import-github-labels-cli](https://github.com/abhijithvijayan/import-github-labels-cli) - Sync labels between Github repos.
+- [git-all-branches](https://github.com/zacanger/git-all-branches) - Improved `git branch -a`.
 
 ## Images
 
@@ -477,7 +538,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Image Conversion
 
 - [imgp](https://github.com/jarun/imgp) - Blazing fast batch image resizer and rotator.
-- [korkut](https://github.com/oguzhaninan/korkut) - Quick and simple image processing at the command line.
+- [korkut](https://github.com/oguzhaninan/korkut) - Quick and simple image processing.
+- [imagemagick](https://imagemagick.org) - Gold standard for anything images.
 
 ### SVG
 
@@ -504,6 +566,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [yosay](https://github.com/yeoman/yosay) - Like cowsay, but for yeoman.
 - [lolcat](https://github.com/busyloop/lolcat) - Outputs text in rainbow colors.
 - [text-meme](https://github.com/beatfreaker/text-meme-cli) - Generate text memes.
+- [dankcli](https://github.com/sggts04/dankcli) - Add text to meme image templates.
+- [ricksay](https://github.com/roma-guru/ricksay) - Quotes from Rick and Morty.
 
 ## Other
 
@@ -530,6 +594,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [nasa-cli](https://github.com/xxczaki/nasa-cli) - Download NASA Picture of the Day from your terminal.
 - [googlr](https://github.com/Camji55/googlr) - Search Google from the command line.
 - [Qalculate](https://github.com/Qalculate/libqalculate) - Calculate non-trival math expressions. Unit conversions, symbolic calculations and more.
+- [translate-shell](https://github.com/soimort/translate-shell) - Google Translate interface.
 
 ### Emoji
 
@@ -537,6 +602,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [emoji-finder](https://github.com/dematerializer/emoji-finder) - Quickly find and copy emoji to the clipboard via the command-line.
 - [oji](https://github.com/xxczaki/oji) - Interactive text emoji maker.
 - [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) - Use emoji in commit messages.
+- [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) - Generate gitmoji changelogs.
 
 ## Other Awesome Lists
 
